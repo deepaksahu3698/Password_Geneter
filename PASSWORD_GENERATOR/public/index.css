@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+:root
+{
+    --dark-blue:#0e0f0f;
+    --light-blue: #98C1D9;
+    --base: #E0FBFC;
+    --orange: #EF6C4D;
+    --darker-blue: #293241;
+}
+
+
+
+body, p, h1,h2,h3, h4, h5, h6 
+{   
+    margin: 0px;
+    font-family: 'Cantata One', serif;
+
+  
+  
+}
+
+body
+{
+   
+    background-color: #093028;
+
+    /*background-color: var(--orange);*/
+}
+
+.container
+{
+    /*background-color: #5a1d1d;*/
+    background-image: radial-gradient(#243B55, #233550, #093028);
+   
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    min-width: 20rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform:translate(-50%, -50%);
+   padding: 0.5rem;
+   border: 1px solid black;
+   border-radius: 5px;
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+} 
+.f-right
+{
+    float:right;
+}
+
+.action_btn
+{
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--dark-blue);
+    border-radius :5px;
+    font-size: large;
+    transition: all 0.25s;
+}
+.action_btn:hover {
+    background-color : #410808;
+    color: rgb(184, 151, 182);
+   
+}
+
+.op_Pass
+{
+    margin-top: 1rem;
+    text-align: center;
+    border: 1px dashed rgb(66, 64, 66) ;
+    padding: 0.5rem 0px;
+    font-size: large;
+   
+}
+
+.title
+{
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
